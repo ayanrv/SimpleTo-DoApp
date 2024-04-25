@@ -29,14 +29,17 @@ The To-Do List App is a user-friendly application designed to help users manage 
 -Local Storage: Using the browser's local storage API to save and retrieve tasks, providing data persistence across browser sessions.
 
 
+
 --Data Structures:
 
 -Arrays: Storing tasks in arrays and sorting them based on the user's preference.
 
 
+
 --Control Flow:
 
 -Conditional Statements: Checking for duplicate tasks and managing task additions and deletions based on user input.
+
 
 
 --UX Design:
