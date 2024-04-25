@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+:root{
+    --green: #4CAF50;
+    --white: white;
+    --black: black;
+    --red: #c22f25;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--green);
+    border-radius: 10px;
+    margin: 20px 500px;
+}
+.todo > h1 {
+    color: var(--green);
+}
+.input {
+    display: flex;
+    gap: 10px;
+}
+button {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+#addTaskBtn {
+    background-color: var(--white); 
+    color: var(--black); 
+    border: 2px solid var(--green);
+    transition-duration: 0.4s;
+}
+#addTaskBtn:hover {
+    background-color: var(--green);
+    color: var(--white);
+  }
+
+#taskInput {
+    border-radius: 10px;
+    width: 200px;
+}
+li {
+    width: 200px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr {
+    width: 100%;
+    margin: 30px;
+    border: 1px solid var(--green);
+}
